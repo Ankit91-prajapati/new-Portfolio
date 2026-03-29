@@ -12,7 +12,7 @@ const About = () => {
         </h2>
       </div>
 
-      <p className="mt-4  text-2xl leading-[30px]  text-black dark:text-white">
+      <p className="mt-4  text-base md:text-2xl leading-[30px]  text-black dark:text-white">
         I'm a Full Stack Web Developer with experience in TypeScript,
         JavaScript, React, and Node.js. I enjoy building efficient,
         scalable, and user-friendly applications that solve real-world
