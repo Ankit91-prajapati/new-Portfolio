@@ -36,10 +36,6 @@ const Nav = () => {
           ))}
         </div>
         <div className="flex items-center space-x-3">
-            <button className="px-8 py-3.5 text-lg cursor-pointer rounded-lg bg-blue-500 hover:bg-blue-800 transition-all duration-200 text-white flex items-center space-x-2 h-13">
-              <DownloadIcon className="w-5 h-5"/>
-              <span>Download CV</span>
-            </button>
             <ThemeToggler/>
             <MenuIcon className=" transition-transform hover:scale-120 lg:hidden " onClick={()=>setOpenNav(true)}/>
         </div>
