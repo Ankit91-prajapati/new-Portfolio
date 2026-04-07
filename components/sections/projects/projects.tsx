@@ -23,7 +23,7 @@ const Projects = () => {
           <h1 className="mt-4 text-xl sm:text-2xl font-bold text-black/100 dark:text-white/100">Video Streaming</h1>
             <h2>This is a fully functional, modern web platform that enables live streaming and video calling experiences with real-time chat capabilities.</h2>
           <h3 className="pt-2 font-mediumtext-black/100 dark:text-white/100"><Link href="https://live-stream-kzei.vercel.app/" 
-          className="hover:text-blue-500 text-2xl text-blue-200">Live</Link></h3>
+          className="dark:hover:text-blue-500 text-blue-700  text-xl text-blue-200">Live</Link></h3>
         </div>
 
          <div>
@@ -37,7 +37,7 @@ const Projects = () => {
           <h1 className="mt-4 text-xl sm:text-2xl font-bold text-black/100 dark:text-white/100">Authentication</h1>
 
            <h2>This is fullStack Authentication site</h2>
-          <h3 className="pt-2 font-mediumtext-black/100 dark:text-white/100"><Link href="https://frontend-kappa-seven-35.vercel.app/" className="hover:text-blue-500 text-2xl  text-blue-200">Live</Link></h3>
+          <h3 className="pt-2 font-mediumtext-black/100 dark:text-white/100"><Link href="https://frontend-kappa-seven-35.vercel.app/" className="dark:hover:text-blue-500 text-blue-700  text-xl  text-blue-200">Live</Link></h3>
         </div>
 
 
@@ -52,7 +52,7 @@ const Projects = () => {
           <h1 className="mt-4 text-xl sm:text-2xl font-boldtext-black/100 dark:text-white/">Car-Repair-Services site</h1>
 
          <h2>Car repair company site with service listings, booking form, and contact options.</h2>
-          <h3 className="pt-2 font-mediumtext-black/100 dark:text-white/100"><Link href="https://car-repair-services.vercel.app" className="hover:text-blue-500 text-2xl  text-blue-200">Live</Link></h3>
+          <h3 className="pt-2 font-mediumtext-black/100 dark:text-white/100"><Link href="https://car-repair-services.vercel.app" className="dark:hover:text-blue-500 text-blue-700  text-xl  text-blue-200">Live</Link></h3>
         </div>
 
          <div>
@@ -65,7 +65,7 @@ const Projects = () => {
           />
           <h1 className="mt-4 text-xl sm:text-2xl font-bold text-black/100 dark:text-white/100">Classes Website</h1>
   <h2>Educational institute landing page. Includes course info, contact form, and modern UI.</h2>
-          <h3 className="pt-2 font-mediumtext-black/100 dark:text-white/100"><Link href="https://classes-website.vercel.app" className="hover:text-blue-500 text-2xl  text-blue-200">Live</Link></h3>
+          <h3 className="pt-2 font-mediumtext-black/100 dark:text-white/100"><Link href="https://classes-website.vercel.app" className="dark:hover:text-blue-500 text-blue-700  text-xl  text-blue-200">Live</Link></h3>
         </div>
       </div>
 

@@ -8,6 +8,7 @@ import {  DownloadIcon, MenuIcon, } from "lucide-react";
 import { useEffect, useState } from "react";
 import MobileNav from "./mobile-nav";
 
+
 const Nav = () => {
   const [openNav, setOpenNav] =useState<boolean>(false)
   const[navBg , setNavBg] =useState(false)
@@ -20,7 +21,7 @@ const Nav = () => {
   return ()=>window.removeEventListener("scroll",bgHandler)
   }, [])
   return (
-    <>  <div className={`transition-all ${navBg?"dark:bg-gray-800 shadow-md":"fixed"} duration-200 h-[12vh] z-[1000] fixed w-full`}>
+    <>  <div className={`transition-all ${navBg?"dark:bg-gray-800 shadow-md":"fixed"} duration-200 h-[10vh] z-[1000] fixed w-full`}>
       <div className="flex items-center h-full justify-between w-[90%] mx-auto">
         <Logo />
 

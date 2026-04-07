@@ -11,7 +11,7 @@ type props={
 
 const ResumeCard = ({Icon ,role ,company ,description  ,date ,college}:props) => {
   return (
-    <div id ="resume" className="mt-6">
+    <div className="mt-6">
       <div className="flex items-start space-x-6 bg-blue-950/20 transition-all duration-300 p-4 sm:p-8 rounded-md">
       
       
