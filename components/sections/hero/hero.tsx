@@ -1,7 +1,7 @@
 "use client";
 
 import Typewriter from "typewriter-effect";
-import AnimateComponent from "./animate-motion"; // renamed for clarity
+import  AnimateComponent from "./glow-animation"; // renamed for clarity
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
         
         {/* Animation */}
         <div className=" absolute flex justify-center mb-6 -z-10 inset-0">
-          <AnimateComponent />
+          <AnimateComponent/>
         </div>
 
         {/* Name */}
