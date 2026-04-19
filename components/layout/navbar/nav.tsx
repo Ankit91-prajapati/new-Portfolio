@@ -21,7 +21,7 @@ const Nav = () => {
   return ()=>window.removeEventListener("scroll",bgHandler)
   }, [])
   return (
-    <>  <div className={`transition-all ${navBg?"dark:bg-gray-800 shadow-md":"fixed"} duration-200 h-[10vh] z-[1000] fixed w-full`}>
+    <>  <div className={`transition-all ${navBg?"dark:bg-[#141635] shadow-md":"fixed"} duration-200 h-[10vh] z-[1000] fixed w-full`}>
       <div className="flex items-center h-full justify-between w-[90%] mx-auto">
         <Logo />
 
@@ -30,7 +30,7 @@ const Nav = () => {
             <Link
               key={index}
               href={link.href}
-              className="text-black dark:text-white hover:text-sky-300 dark:hover:text-orange-400 font-semibold transition-all duration-500 rounded"
+              className="text-gray-400 dark:text-white hover:text-sky-300 dark:hover:text-orange-400 font-semibold transition-all duration-500 rounded"
             >
               <p>{link.name}</p>
             </Link>

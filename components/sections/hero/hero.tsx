@@ -1,52 +1,49 @@
 "use client";
 
-import ParticlesHero from "./particles-hero";
-import Image from "next/image";
 import Typewriter from "typewriter-effect";
-
-// add your image
+import AnimateComponent from "./animate-motion"; // renamed for clarity
 
 const Hero = () => {
   return (
-    <div
+    <section
       id="home"
-      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden text-black dark:text-white"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden text-gray-400 dark:text-white px-4"
     >
-      <div className="hidden dark:block">
-        <ParticlesHero />
-      </div>
-
-      <div className="relative  flex flex-col items-center justify-center z-10">
-        <div className="w-[250px] h-[250px] rounded-full overflow-hidden border-2 border-white flex items-center justify-center">
-          <Image
-            src="/images/ankitprajapati.jpeg"
-            height={200}
-            width={200}
-            alt="Profile"
-            className="object-cover"
-          />
+      {/* Content */}
+      <div className=" z-10 flex flex-col items-center text-center">
+        
+        {/* Animation */}
+        <div className=" absolute flex justify-center mb-6 -z-10 inset-0">
+          <AnimateComponent />
         </div>
 
-        <h1 className="text-3xl md:text-5xl font-bold mt-4 text-center">
+        {/* Name */}
+        <h2 className="text-4xl md:text-5xl font-semibold font-sans ">
+          Ankit Prajapati
+        </h2>
+
+        {/* Heading */}
+        <h1 className="text-2xl md:text-5xl font-bold mt-4">
           Creating web products & experiences
         </h1>
 
-        <h2 className="text-xl md:text-2xl mt-2 text-center">
-          I am passionate{" "}
-          <span className="text-cyan-400">
+        {/* Typewriter */}
+        <p className="text-lg md:text-2xl mt-3">
+          I am passionate{""}
+          <span className="text-cyan-400 inline-block min-w-[220px]">
             <Typewriter
               options={{
-                strings: ["Web Developer", "FullStack Developer"],
+                strings: ["Web Developer", "Full Stack Developer"],
                 autoStart: true,
                 loop: true,
-                deleteSpeed: 50,
-                delay: 75,
+                deleteSpeed: 40,
+                delay: 70,
               }}
             />
           </span>
-        </h2>
+        </p>
       </div>
-    </div>
+    </section>
   );
 };
 
