@@ -29,7 +29,7 @@ const Hero = () => {
 
         {/* Typewriter */}
         <p className="text-lg md:text-2xl mt-3">
-          I am passionate{""}
+          I am passionate{" "}
           <span className="text-cyan-400 inline-block min-w-[220px]">
             <Typewriter
               options={{

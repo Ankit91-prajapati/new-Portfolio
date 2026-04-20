@@ -38,7 +38,7 @@ const Nav = () => {
         </div>
         <div className="flex items-center space-x-3">
             <ThemeToggler/>
-            <MenuIcon className=" transition-transform hover:scale-120 lg:hidden " onClick={()=>setOpenNav(true)}/>
+            <MenuIcon className=" transition-transform hover:scale-120 lg:hidden text-gray-200" onClick={()=>setOpenNav(true)}/>
         </div>
       </div>
     </div>
